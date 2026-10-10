@@ -1,0 +1,52 @@
+@TiendaTecnologiaAPI_HostAddress = http://localhost:5187
+
+### SELECT - listar marcas
+GET {{TiendaTecnologiaAPI_HostAddress}}/api/Marcas
+Accept: application/json
+
+### INSERT - crear marca
+POST {{TiendaTecnologiaAPI_HostAddress}}/api/Marcas
+Content-Type: application/json
+
+{
+  "nombre": "HP"
+}
+
+### UPDATE - actualizar marca creada (en base nueva normalmente es id 4)
+PUT {{TiendaTecnologiaAPI_HostAddress}}/api/Marcas/4
+Content-Type: application/json
+
+{
+  "idMarca": 4,
+  "nombre": "HP Inc."
+}
+
+### SELECT - listar productos
+GET {{TiendaTecnologiaAPI_HostAddress}}/api/Productos
+Accept: application/json
+
+### INSERT - crear producto
+POST {{TiendaTecnologiaAPI_HostAddress}}/api/Productos
+Content-Type: application/json
+
+{
+  "idMarca": 1,
+  "nombre": "Teclado mecánico",
+  "precio": 450.00,
+  "stock": 12
+}
+
+### SELECT - listar clientes
+GET {{TiendaTecnologiaAPI_HostAddress}}/api/Clientes
+Accept: application/json
+
+### INSERT - crear cliente
+POST {{TiendaTecnologiaAPI_HostAddress}}/api/Clientes
+Content-Type: application/json
+
+{
+  "nit": "7894561-2",
+  "nombre": "María",
+  "apellidos": "Pérez",
+  "email": "maria@example.com"
+}
