@@ -9,10 +9,10 @@ REQUISITOS
 EJECUCION
 1) Descomprime el ZIP.
 2) Abre TiendaTecnologiaAPI.sln.
-3) Espera que Visual Studio restaure los paquetes NuGet.
-4) Selecciona el perfil HTTPS.
-5) Presiona F5 o el boton Ejecutar.
-6) Debe abrir Swagger.
+3) Esperar a  que Visual Studio restaure los paquetes NuGet.
+4) Seleccionar el perfil HTTPS.
+5) Presionar F5 o el boton Ejecutar.
+6) Debemos a proceder a abrir Swagger.
 
 PRUEBA MINIMA PARA LA TAREA
 1) GET /api/Marcas -> demuestra SELECT.
@@ -27,12 +27,3 @@ PRUEBA MINIMA PARA LA TAREA
      "nombre": "HP Inc."
    }
 5) Ejecuta de nuevo GET /api/Marcas y comprueba el cambio.
-
-ENTREGA
-- Subir todo el proyecto al repositorio publico de GitHub.
-- Agregar al README.md el enlace al video de maximo 3 minutos.
-- Grabar el video mostrando al menos GET, POST y PUT.
-
-NOTA
-La API usa SQLite. La base tienda_tecnologia.db se crea sola al ejecutar y no requiere instalar MySQL o SQL Server.
-Si deseas reiniciar los datos de prueba, cierra la API, elimina tienda_tecnologia.db y vuelve a ejecutar el proyecto.
