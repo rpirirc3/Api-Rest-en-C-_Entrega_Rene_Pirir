@@ -1,5 +1,8 @@
 # TiendaTecnologiaAPI
 
+video de explicación: 
+https://youtu.be/jXLLN5apP4c
+
 Sección B, 
 Alumno :  Rene Abraham Pirir Cuc
 Carné: 7690-23-22174
